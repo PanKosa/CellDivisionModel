@@ -1,0 +1,7 @@
+k = 1.2
+a = 9.1
+growthRate   = lambda m: k*np.sqrt(m)
+devisionRate = lambda m: a*m
+
+dt = 0.1
+T  = 10.0
